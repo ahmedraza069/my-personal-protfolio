@@ -1,0 +1,1196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* Common Css End */
+
+#main_navbar .navbar{
+    padding: 40px 0;
+}
+
+#main_navbar .navbar img{
+    width: 130px;
+}
+#main_navbar .navbar li{
+    margin-left: 25px;
+}
+#main_navbar .navbar li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    transition: 0.3s;
+}
+#main_navbar .navbar li a:hover{
+    color: #D8532B;
+}
+.dropdown-menu{
+    margin: 0;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.romove_padding{
+    padding: 0px !important;
+    margin: 0px !important;
+    
+    
+}
+.dropdown-item a {
+    width: 180px;
+    height: 60px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 60px;
+    padding-left: 8px;
+    border-bottom: 2px solid #D8532B;
+    display: block;
+    transition: 0.4s all ease;
+    border-radius: 2px;
+}
+.dropdown-item a:hover{
+    background-color: #D8532B;
+    color: #ffffff !important;
+   
+}
+.btn{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #D8532B;
+    position: relative;
+    border: none;
+    width: 200px;
+    padding: 15px;
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+    transition: 0.4 all ease;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+}
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    color: #ffffff;
+    background-color: #48455A;
+}
+.btn:hover:focus{
+    outline: none;
+}
+/* navbar part end/ */
+
+/*================================================
+===============Banber Part Start===================
+====================================================*/
+#banner{
+    background: url("./img/banner.png");
+    height: 100%;
+    background-repeat: no-repeat;
+}
+#banner .left_side img{
+    width: 100%;
+    padding: 15% 7%;
+}
+#banner .links{
+    display: flex;
+}
+#banner .links a{
+    width: 48px;
+    height: 48px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+    background-color: #D8532B;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 50%;
+    margin: 0 20px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.4s ease;
+}
+#banner .links a i{
+    position: relative;
+    z-index: 1;
+    transition: 0.4s all ease;
+
+}
+#banner .links a::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -90px;
+    left: 0;
+    background: linear-gradient(-45deg,  #48455A,  #48455A);
+    transition: 0.5 ease;
+
+
+}
+#banner .links a:hover::after{
+    top: 0;
+}
+#banner .links a:hover{
+    transform: translateY(-10px);
+}
+#banner .right_side{
+    position: relative;
+    padding: 15% 7%;
+}
+#banner .right_side h4{
+    padding-left: 20px;
+    padding-top: 35px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #48455A;
+    text-transform: capitalize;
+    margin-bottom: 13px;
+}
+#banner .right_side h3{
+    padding-left: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #48455A;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+#banner .right_side p{
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #48455A;
+    line-height: 25px;
+}
+#banner .right_side .main_btn{
+    padding-left: 20px;
+    margin-top: 50px;
+}
+#banner .right_side .main_btn .btn_1{
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #48455A;
+    border: none;
+    width: 200px;
+    padding: 15px;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    transition: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+}
+#banner .right_side .main_btn .btn_1:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    color: black;
+    background-color: #D8532B;
+}
+#banner .right_side .main_btn .btn_1:hover:focus{
+    outline: none;
+}
+/*================================================
+===============Banber Part End===================
+====================================================*/
+
+
+
+
+
+/*==============================================
+=============Middle wirte Part All Css Start========
+====================================================*/
+#middle_part .write_part{
+    text-align: center;
+}
+#middle_part .write_part h4{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+    word-spacing: 2px;
+    color: #48455A;
+}
+#middle_part .write_part h1{
+    text-transform: capitalize;
+    font-size: 38px;
+    font-weight: 700;
+    word-spacing: 2px;
+    color: #48455A;
+    line-height: 45px;   
+}
+/*==============================================
+=============Middle wirte Part All Css End========
+====================================================*/
+
+
+
+/*==================================================
+===Some Information MY Self Icon Flex box Ended===
+==============================================*/
+#about_me{
+    padding: 20px;
+}
+#about_me .myself{
+    background-color: #D8532B;
+    height: 140px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+#about_me:hover .myself{
+    color: #fff;
+    opacity: 1;
+    scale: 1;
+    transition: 0.5s;
+}
+#about_me .myself:hover{
+    color: white;
+    background-color: #48455A;
+    cursor: pointer;
+    opacity: 1;
+    scale: 0.9;
+    transition: 0.5s;
+}
+
+#about_me .myself .icon_write{
+    text-align: center;
+}
+#about_me .myself .icon_write i{
+    font-size: 25px;
+    padding-top: 40px;
+}
+#about_me .myself .icon_write h3{
+    font-size: 20px;
+    padding-top: 18px;
+}
+
+
+/*================================================-
+=====Some Information MY Self Icon Flex box Ended===
+================================================*/
+
+
+
+/**=========================================
+==============About my cv part Start============
+============================================*/
+#mycv{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#mycv .about_write h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #48455A;
+}
+#mycv .about_write p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #48455A;
+    padding-top: 20px;
+    display: inline-block;
+}
+#mycv .about_write .me h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #48455A;
+}
+#mycv .about_write .me{
+    padding-bottom: 20px;
+}
+#mycv .image_part img{
+    width: 100%;
+    height: 100%;
+}
+#mycv .contact_button button{
+    background-color: #D8532B;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+
+
+}
+
+#mycv .contact_button button a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+#mycv .contact_button .btn_2{
+    margin-left: 15px;
+}
+#mycv .contact_button button:hover button{
+    background-color: #48455A;
+    color: #fff;
+    opacity: 1;
+    scale: 1;
+    transition: 0.5s;
+}
+#mycv .contact_button button:hover{
+    opacity: 1;
+    scale: 0.9;
+    color: #fff;
+    transition: 0.5s;
+    background-color: #48455A;
+}
+
+/**=========================================
+==============About my cv part Start============
+============================================*/
+
+
+
+
+/*=================================================
+============Flex hover part Start======================
+==============================================*/
+
+#banner_middle_part{
+    margin-top: 50px;
+}
+#banner_middle_part .flex-box{
+    height: 451px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+/* banner flex box part start/ */
+#banner_middle_part {
+    margin-bottom: 100px;
+}
+#banner_middle_part .flex-box .icon i{
+    font-size: 50px;
+    color: whitesmoke;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+#banner_middle_part .flex-box .number{
+    width: 80px;
+    height: 80px;
+    background-color: #D8532B;
+    text-align: end;
+    border-bottom-left-radius: 100%;
+}
+#banner_middle_part .flex-box .number h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    padding-right: 12px;
+    padding-top: 12px;
+}
+#banner_middle_part .flex-box .middle_icon{
+    padding: 20px;
+}
+#banner_middle_part .flex-box .middle_icon i{
+    font-size: 50px;
+    color: #D8532B;
+
+}
+#banner_middle_part .flex-box h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #48455A;
+}
+#banner_middle_part .flex-box p{
+    text-align: center;
+    padding: 20px 12px 12px 25px;
+}
+#banner_middle_part .flex-box button{
+    height: 45px;
+    width: 125px;
+    background-color: #fff;
+    border: 1px solid #D8532B;
+    border-radius: 5px;
+}
+#banner_middle_part .flex-box button a{
+    color: #D8532B;
+    font-size: 18px;
+    font-weight: 500;  
+}
+#banner_middle_part:hover .flex-box{
+    opacity: 1;
+    scale: 1;
+    transition: 0.5s;
+}
+#banner_middle_part .flex-box:hover{
+    opacity: 1;
+    scale: 0.9;
+    background: #D8532B;
+}
+
+#banner_middle_part .flex-box:hover h4 {
+    color: #fff;
+}
+#banner_middle_part .flex-box:hover p{
+    color: #fff;
+}
+#banner_middle_part button{
+    width: 170px;
+    height: 60px;
+    background-color: #D8532B;
+    border: none;
+    border-radius: 30px;
+    transition: 0.4s all ease;
+
+}
+#banner_middle_part button a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+#banner_middle_part button:hover{
+    background: #48455A;
+    cursor: pointer;
+}
+
+/*=================================================
+============Flex hover part End======================
+==============================================*/
+
+
+
+
+/*=============================================
+============ coding structure part start/========
+================================================= */
+#coding_structure{
+    padding: 50px 0;
+}
+#coding_structure .write_part h2{
+    font-size: 28px;
+    font-weight: 400;  
+}
+#coding_structure .write_part p{
+    padding-top: 25px;
+    font-weight: 14px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+/* coding structure list style/ */
+#coding_structure .write_part Ul{
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#coding_structure .write_part ul li{
+    color: #48455A;
+}
+#coding_structure .write_part ul li i{
+    padding-right: 15px;
+    color: #D8532B;
+}
+#coding_structure .coding_image img{
+    width: 100%;
+    margin-top: 50px;
+}
+/* ======================================
+=======coding structure part end/========
+========================================== */
+
+
+/* ======================================
+=======Portfolio slider part Start========
+========================================== */
+#portfolio{
+    margin-bottom: 100px;
+    padding: 40px 0 0 0;
+}
+#portfolio img{
+    border-radius: 10px;
+}
+#portfolio .btn_middle{
+    padding-top: 15px;
+}
+#portfolio .btn_middle button{
+    width: 170px;
+    height: 60px;
+    background-color: #D8532B;
+    border: none;
+    border-radius: 30px;
+
+}
+#portfolio button a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+#portfolio .btn_middle:hover button{
+    opacity: 1;
+    scale: 1;
+    transition: 0.5s;
+    color: #fff;
+}
+#portfolio .btn_middle button:hover{
+    opacity: 1;
+    scale: 0.9;
+    transition: 0.5s;
+    background-color: #48455A;
+}
+/* ======================================
+=======Portfolio slider part End========
+========================================== */
+
+
+/*=======================================
+===========web software part start=======
+========================================*/
+
+#web{
+    padding: 40px 0;
+}
+#web .hover{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+#web .flex_part{
+    padding: 35px 25%;
+    border-radius: 7px 7px 0 0;
+}
+#web .web_image{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    transition: 0.5s;
+}
+#web .web_image img{
+    height: 50px;
+    width: 50px;
+}
+#web  .write_part {
+    height: 100%;
+    border-top: 1px solid #48455A;
+}
+
+#web .write_part p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#web .flex_part:hover{
+    border-bottom: 2px solid #fff;
+    transition: 0.3s;
+}
+#web .hover:hover .scale{
+    background-color: #48455A;
+    opacity: 1;
+    scale: 1;
+    transition: 0.5s;
+}
+#web .hover .scale:hover{
+    opacity: 1;
+    scale: 1.1;
+    background-color: #48455A;
+    border-radius: 10px;
+    color: #fff;
+    
+}
+
+/*=======================================
+===========web software part start=======
+========================================*/
+
+
+
+/*=======================================
+===========Discuss Idea part start=======
+========================================*/
+#price{
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+#price .pricing_part{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+}
+#price .click_path{
+background-color: #FF7A51;
+border-radius: 40px 0px 50px 50px;
+height: 120px;
+width: 100px;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+position: absolute;
+left: 50%;
+top: -6%;
+transform: translateX(-50%);
+}
+#price .click_path:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+#price .click_path h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    color: #48455A;
+    padding-top: 50px;
+}
+#price .pricing_part h1{
+    padding-top: 120px;
+    font-size: 38px;
+    font-weight: 700;
+    color: #48455A;
+    text-align: center;
+}
+#price .pricing_part p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #48455A;
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #48455A;
+}
+#price .pricing_part ul{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#price .pricing_part ul li{
+    font-size: 16px;
+    font-size: 400;
+    color: #48455A;
+    line-height: 30px;
+}
+#price .pricing_part ul li i{
+    padding-right: 15px;
+    font-size: 14px;
+}
+#price .pricing_part .btn_links{
+    padding-top: 50%;
+}
+#price .pricing_part button{
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid #48455A;
+}
+#price .pricing_part .btn_links a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #48455A;
+}
+#price .pricing_part:hover{
+    background-color: #48455A;
+    transition: .4s ease;
+    color: #fff;
+}
+#price:hover .pricing_part{
+    opacity: 1;
+    scale: 1;
+    transition: 0.5s;
+}
+#price .pricing_part:hover{
+    background-color: #D8532B;
+    transition: .4s;
+    opacity: 1;
+    scale: 0.9;
+    transition: 0.5s;
+}
+#price .pricing_part:hover h1{
+    color: #fff;
+    transition: 0.4s;
+}
+#price .pricing_part:hover p{
+    color: #fff;
+    transition: 0.4s;
+    border-bottom: 2px solid #fff;
+}
+#price .pricing_part:hover ul li{
+    color: #fff;
+    transition: 0.4s;
+}
+
+#price .pricing_part:hover button{
+    opacity: 1;
+    scale: 1;
+    transition: 0.5s;
+}
+#price .pricing_part button:hover{
+    opacity: 1;
+    scale: 1.05;
+    background-color: #48455A;
+}
+#price .pricing_part button:hover a{
+    color: #fff;
+}
+/*=======================================
+===========Pricing part start=======
+========================================*/
+
+
+
+/*=======================================
+===========Faq question part Start=======
+========================================*/
+#question{
+    padding: 20px 0;
+    margin-bottom: 100px;
+}
+#question .write_step{
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    position: relative;
+    color: #48455A;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-left: 2px solid orangered;
+    border-right: 2px solid orangered;
+    border-radius: 5px ;
+    cursor: pointer;
+    margin-bottom: 90px;
+
+}
+#question .write_step .dropdown{
+    height: auto;
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    transition: 0.4s;
+    border-left: 2px solid orangered;
+    border-right: 2px solid orangered;
+    border-radius: 5px;
+    transition: 0.5s ;
+}
+#question .write_step .dropdown a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #48455A;
+}
+#question .write_step:hover .dropdown{
+    display: block;
+    transition: 0.5s;
+}
+
+/*=======================================
+===========Faq question part End=======
+========================================*/
+
+
+
+/*=======================================
+==========Client part Start=======
+========================================*/
+#client{
+    padding: 30px;
+}
+#client .flex_step{
+   background-color: #ffffcc;
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   border: none;
+   transition: 0.5s;
+}
+#client .flex_step p{
+    text-align: center;
+    padding: 20px 10px 0 10px;
+    color: #48455A;
+    font-size: 16px;
+
+}
+#client .flex_step h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #48455A;
+}
+#client .flex_step h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #48455A;
+    text-align: center;
+}
+#client .flex_step .middle_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#client .flex_step img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #D8532B;
+    padding: 4px;
+}
+#client .flex_step .icon{
+   display: flex;
+   justify-content:end;
+   align-items: end;
+}
+#client .flex_step .icon i{
+    font-size: 50px;
+    color: #FFBBBB;
+}
+#client .flex_step:hover{
+    background-color: #D8532B;
+
+}
+#client .flex_step:hover p{
+    color: #fff;
+}
+#client .flex_step:hover h4{
+    color: #fff;
+}
+#client .flex_step:hover h6{
+    color: #fff;
+}
+#client .flex_step:hover img{
+    border: 2px solid #fff;
+}
+#client .button_middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#client .button_middle button{
+    background-color: #D8532B;
+    border-radius: 30px;
+    border: none;
+    padding: 15px;
+}
+#client .button_middle button a{
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#client .button_middle:hover button{
+    opacity: 1;
+    scale: 1;
+    transition: 0.5s;
+}
+#client .button_middle button:hover{
+    opacity: 1;
+    scale: 0.9;
+    background-color: #48455A;
+}
+/*=======================================
+===========Client part End=======
+=======================================*/
+
+
+
+/*=======================================
+========Some activity and experience part start=======
+=======================================*/
+#activity{
+    padding: 40px 0;
+}
+#activity .card_part{
+    border-radius: 10px;
+
+}
+#activity .card_part img{
+    border-radius: 10px 10px 0 0;
+}
+#activity .card_part .icon_card{
+    font-size: 16px;
+    color: #48455A;
+    padding-bottom: 10px;
+}
+
+#activity .card_part .icon_card span{
+    padding-right:  50px;
+}
+#activity .card_part p{
+    font-size: 22px;
+    font-weight: 600;
+    color: #48455A;
+}
+#activity .card_part button{
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: #D8532B;
+}
+#activity .card_part button a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff ;
+}
+#activity .card_part .card-body:hover{
+    background-color: #D8532B;
+    transition: 0.5s;
+    border-radius: 0 0 10px 10px ;
+}
+#activity .card_part .card-body:hover span{
+    color: #fff;
+}
+#activity .card_part .card-body:hover p{
+    color: #fff;
+}
+#activity .card_part .card-body:hover button{
+    background-color: #48455A;
+    color: #fff;
+}
+
+#activity .active_right_side img{
+    border-radius: 10px;
+
+}
+#activity .another_part{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #48455A ;
+}
+#activity .another_part .main_image img{
+    border-radius: 10px;
+    height: 120px;
+} 
+#activity .another_part .another_write{
+    padding: 5px;
+}
+#activity .another_part .another_write p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #48455A;
+}
+#activity .another_button{
+    padding-top: 5%;
+}
+#activity .another_button button{
+    padding: 15px 25px;
+    background-color: #D8532B;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#activity .another_button button a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+#activity .another_button:hover button{
+    opacity: 1;
+    scale: 1;
+    transition: 0.5s;
+}
+#activity .another_button button:hover{
+    opacity: 1;
+    scale: 0.9;
+    background-color: #48455A;
+    transition: 0.5s ;
+}
+/*=======================================
+=====Some activity and experience part End=======
+=======================================*/
+
+/*=======================================
+=========Contact part Start=======
+=======================================*/
+
+#contact {
+    padding: 40px 0;
+
+}
+#contact .contact_me .links{
+    display: flex;
+    padding-bottom: 20px;
+}
+#contact .contact_me .links a{
+    width: 60px;
+    height: 60px;
+    background-color: #D8532B;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #D8532B;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    line-height: 60px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s;
+}
+#contact .contact_me .links a i{
+    z-index: 1;
+    transition: 0.4s;
+    position: relative;
+}
+#contact .contact_me .links a::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg,  #48455A,  #48455A);
+    position: absolute;
+    border-radius: 50%;
+    top: -90px;
+    left: 0;
+    transition: 0.4s;
+}
+#contact .contact_me .links a:hover::after{
+    top: 0;
+}
+#contact .contact_me .links a:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+#contact .contact_me h4{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #48455A;
+    padding-bottom: 20px;
+}
+#contact .contact_me p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #48455A;
+}
+#form{
+    padding: 50px;
+}
+
+#form .form_me input{
+    padding: 15px 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 30px;
+    background-color: #E7E7E7;
+    border: 3px solid #E7E7E7;
+    margin-bottom: 20px;
+    width: 100%;
+    transition: 0.4s;
+}
+#form .massage input{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 30px;
+    background-color: #E7E7E7;
+    border: none;
+    width: 100%;
+    min-height: 150px;
+
+}
+#form .form_me input:hover{
+    border: 3px solid #D8532B;
+    cursor: pointer;
+}
+#form .massage input:hover{
+    border: 3px solid #D8532B;
+    cursor: pointer;
+}
+#form .right_side_image img{
+    width: 100%;
+    height: 100%;
+}
+#form button{
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #D8532B;
+}
+#form button a{
+    font-weight: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+#form .down_button:hover button{
+    opacity: 1;
+    scale: 1;
+
+}
+#form .down_button button:hover{
+    background-color: #48455A;
+    opacity: 1;
+    scale: 0.9;
+    transition: 0.5s;
+    color: #E7E7E7;
+    cursor: pointer;
+}
+
+/*=======================================
+=========Contact part End=======
+=======================================*/
+#footer{
+    padding: 30px 0;
+}
+#footer .last_logo{
+    padding: 50px 0;
+}
+#footer .last_logo img{
+    width: 250px;
+    height: 80px;
+}
+#footer .links{
+    display: flex;
+    padding-bottom: 20px;
+}
+#footer .links a{
+    width: 60px;
+    height: 60px;
+    background-color: #D8532B;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #D8532B;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    line-height: 60px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s;
+    margin: 15px;
+}
+#footer .links a i{
+    z-index: 1;
+    transition: 0.4s;
+    position: relative;
+}
+#footer .links a::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg,  #48455A,  #48455A);
+    position: absolute;
+    border-radius: 50%;
+    top: -90px;
+    left: 0;
+    transition: 0.4s;
+}
+#footer .links a:hover::after{
+    top: 0;
+}
+#footer .links a:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+#footer .copy a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #48455A;
+}
+#footer .copy a span{
+    color: #D8532B;
+}
